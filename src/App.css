@@ -1,0 +1,65 @@
+.container {
+  background-color: #004063;
+  min-height: 100vh;
+  color: #c6efe3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#page-header {
+  background-color: #01b6a7;
+  width: 100%;
+  color: #004063;
+  padding: 5px;
+}
+.scores {
+  text-align: end;
+}
+.pokemons {
+  display: grid;
+  width: 70vw;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+.pokemon:hover {
+  transform: scale(1.05);
+}
+.front {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c6efe3;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 18px;
+  box-shadow: #002e52 0px 2px 2px;
+}
+
+.pokemon img {
+  width: 150px;
+  pointer-events: none;
+  animation-duration: 4s;
+  animation-name: slide-in;
+}
+.pokemon p {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  color: #c6efe3;
+  background-color: #01b6a7;
+}
+@keyframes slide-in {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(180deg);
+  }
+}
