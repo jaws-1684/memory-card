@@ -1,5 +1,5 @@
 # memory-card.jsx - Memory Cards Game
-<a href="memory-card-ten-xi.vercel.app ">View Demo</a>
+<a href="https://memory-card-ten-xi.vercel.app/">View Demo</a>
 
 ## Description
 The app allows users to play memory cards a fun puzzle game that challenges memory and attention.
